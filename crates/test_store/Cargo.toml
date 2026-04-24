@@ -1,0 +1,15 @@
+[package]
+name = "test_store"
+version = "0.1.0"
+publish.workspace = true
+edition.workspace = true
+license = "GPL-3.0-or-later"
+
+[lib]
+path = "src/test_store.rs"
+doctest = false
+
+[dependencies]
+
+[lints]
+workspace = true
